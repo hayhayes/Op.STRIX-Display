@@ -1,0 +1,79 @@
+/*      JOSH COMEAU RESET SHEET  */
+/*      MODERN NORMALIZE CSS    */
+
+/* Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+* {
+  margin: 0;
+}
+
+/* Enable keyword animations */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    interpolate-size: allow-keywords;
+  }
+}
+
+body {
+  /* Add accessible line-height */
+  line-height: 1.5;
+  /* Improve text rendering */
+  -webkit-font-smoothing: antialiased;
+  
+  
+  /*  Improve font consistancy, create cleaner more modern default font.
+      Preventadjustments of font-size after orientation changes in ios
+      More readable tab size (opinionated)    */
+  font-family:
+  system-ui,
+  'Segoe UI',
+  Roboto,
+  Helvetica,
+  Arial,
+  sans-serif,
+  'Apple Color Emoji',
+  'Segoe UI Emoji'; 
+-webkit-text-size-adjust: 100%; 
+tab-size: 4; 
+}
+
+/* Avoid text overflows */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* Improve line wrapping */
+p {
+  text-wrap: pretty;
+}
+h1, h2, h3, h4, h5, h6 {
+  text-wrap: balance;
+}
+
+/* Improve media defaults */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* Create a root stacking context */
+#root, #__next {
+  isolation: isolate;
+}
+
+/*  *~*~*~* FORMS *~*~*~*  */
+
+/* Inherit fonts for form controls */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/*  *~*~*~* TABLES  *~*~*~* */
+
+table {
+  border-collapse: collapse;
+}

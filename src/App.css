@@ -1,0 +1,75 @@
+body{
+  height: 100vh;
+  
+}
+
+@media screen and (min-height: 911px) {
+  html {
+    font-size: 24px;
+  }
+}
+
+.dashboard{
+  padding: 1rem;
+}
+
+.binary, .graph, .map, .missions, .log, .bg, .protocols, .donut{
+  position: absolute;
+}
+
+.binary{
+  top: 1.5rem;
+}
+
+.graph{
+  right: 3rem;
+  bottom: 2rem;
+  z-index: 3;
+}
+
+.missions{
+  bottom: 1.5rem;
+  left: 3rem;
+  z-index: 1;
+}
+
+.map{
+  left:18rem;
+  top: 0.5rem;
+  z-index: 2;
+}
+
+.log{
+  z-index: 2;
+  right: 13rem;
+  bottom: 1rem;
+}
+
+.bg#one{
+  z-index: -1;
+  top: 0.5rem;
+  right: 1rem;
+}
+
+.bg#two{
+  z-index: -1;
+  bottom: 0.75rem;
+  left: 0.5rem;
+}
+
+.bg#three{
+  z-index: -2;
+  right: 0.5rem;
+  bottom: 0.5rem;
+}
+
+.protocols{
+  right: 1rem;
+  top: 1rem;
+}
+
+.donut{
+  top: 3rem;
+  left: 3rem;
+  filter: drop-shadow(0.1rem 0.1rem 0.5rem white);
+}

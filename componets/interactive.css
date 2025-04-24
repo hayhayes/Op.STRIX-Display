@@ -1,0 +1,105 @@
+/* App.css */
+.App {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+  
+.game-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+  
+.town {
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e0f7fa;
+    border: 2px solid #00796b;
+    border-radius: 10px;
+  }
+  
+  .map-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .building {
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .building:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .building.OnFire {
+    background-color: #f44336; /* Red for "On Fire" */
+    color: white;
+  }
+  
+  .building.Safe {
+    background-color: #81c784; /* Green for "Safe" */
+    color: white;
+  }
+  
+  h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
+  
+.team-panel {
+    width: 30%;
+    border: 2px solid #000;
+    padding: 20px;
+    background-color: lightgreen;
+}
+  
+.building {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #333;
+    background-color: white;
+}
+  
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+  
+button:hover {
+    background-color: #45a049;
+}
+  
+.team {
+    padding: 10px;
+    margin: 5px;
+    background-color: lightgray;
+    cursor: pointer;
+    text-align: center;
+}
+  
+.team.dragging {
+    opacity: 0.5;
+}
+  
+.mission-status {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+  

@@ -1,0 +1,230 @@
+@keyframes cyberUIblink {
+    from{
+        color: #c9e0e3;
+    }
+
+    to{
+        color: #fc0ff5;
+        transform: scale(1.01);
+        
+        
+    }
+}
+
+@keyframes cyber-attack-blink {
+    from{
+        color: #c9e0e3;
+    }
+
+    to{
+        color: #fc0ff5;
+        transform: scale(1.01);
+        
+        
+    }
+}
+
+@keyframes cyberUIdot {
+    from{
+        filter: drop-shadow(0.063rem 0.063rem 0.1rem #fc3ebd);
+    }
+    to{
+        filter: drop-shadow(0.063rem 0.063rem 0.1rem #ffd3e5);
+        transform: scale(1.3);
+    }
+}
+
+@keyframes cyber-attack-dot {
+    from{
+        filter: drop-shadow(0.063rem 0.063rem 0.1rem #fc3ebd);
+    }
+    to{
+        filter: drop-shadow(0.063rem 0.063rem 0.1rem #ffd3e5);
+        transform: scale(1.3);
+    }
+}
+
+
+.cyber-ui{
+    &.window{
+        border-color: #27af99;
+        background-color: #122c5a;
+    }
+
+    & .bar{
+        background-color: #27af99;
+        color: #0c1e3e;
+    }
+
+    & .main{
+        color:#2cc8af;
+    }
+
+    /*componet specific*/
+    &.binary .main span{
+        &#dark{
+            color:#219683;
+        }
+        &#light{
+            color: #4bfbde;
+        }
+    }
+
+    &.missions {
+        .flavor{
+            color:#32e1c5;
+            text-shadow: 1px 1px 2px #fc0ff5;
+        }
+
+        table, th, td{
+            border-color: #8895ac;
+            color:#cfd4de;
+        }
+        .blink td{
+            animation-name: cyberUIblink;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease;
+            animation-direction: alternate;
+                    }
+        
+    }
+
+    &.map{
+        & .main{
+            background-image: url('/map.png');
+            background-size: contain;
+        }
+        & .dot{
+            background-color:#fc0ff5;
+            animation-name: cyberUIdot;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+
+            &.second, &.fifth{
+                animation-duration: 0.5s;
+            }
+            &.third, &.sixth{
+                animation-duration: 0.23s;
+            }
+            &.fourth{
+                animation-duration: 0.75s;
+            }
+            &#jc, &#asm{
+                animation-duration: 1.25s;
+            }
+
+            &#fw, &#eba{
+                animation-duration: 1s;
+            }
+
+            &#dk, &#pp, &#pi, &#ht{
+                animation-duration: 0.8s;
+            }
+            
+        }
+    }
+    
+    &.bg.window{
+        background-color: #2a1849;
+        
+        & .main{
+            color:#1c7d6d;
+        }
+    }
+    
+   
+}
+
+.cyber-attack{
+    &.window{
+        border-color: #27af99;
+        background-color: #122c5a;
+    }
+
+    & .bar{
+        background-color: #27af99;
+        color: #0c1e3e;
+    }
+
+    & .main{
+        color:#2cc8af;
+    }
+
+    /*componet specific*/
+    &.binary .main span{
+        &#dark{
+            color:#219683;
+        }
+        &#light{
+            color: #4bfbde;
+        }
+    }
+
+    &.missions {
+        .flavor{
+            color:#32e1c5;
+            text-shadow: 1px 1px 2px #fc0ff5;
+        }
+
+        table, th, td{
+            border-color: #8895ac;
+            color:#cfd4de;
+        }
+        .blink td{
+            animation-name: cyberUIblink;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-timing-function: ease;
+            animation-direction: alternate;
+                    }
+        
+    }
+
+    &.map{
+        & .main{
+            background-image: url('/map.png');
+            background-size: contain;
+        }
+        & .dot{
+            background-color:#fc0ff5;
+            animation-name: cyberUIdot;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+
+            &.second, &.fifth{
+                animation-duration: 0.5s;
+            }
+            &.third, &.sixth{
+                animation-duration: 0.23s;
+            }
+            &.fourth{
+                animation-duration: 0.75s;
+            }
+            &#jc, &#asm{
+                animation-duration: 1.25s;
+            }
+
+            &#fw, &#eba{
+                animation-duration: 1s;
+            }
+
+            &#dk, &#pp, &#pi, &#ht{
+                animation-duration: 0.8s;
+            }
+            
+        }
+    }
+    
+    &.bg.window{
+        background-color: #2a1849;
+        
+        & .main{
+            color:#1c7d6d;
+        }
+    }
+    
+   
+}
