@@ -46,6 +46,7 @@ function Choices({handleClick}){
     <div>
       <button onClick={() => handleClick('dashboard')}>Dashboard</button>
       <button onClick={() => handleClick('display')}>Mini Display</button>
+      <button onClick={() => handleClick('encode')}>Cipher</button>
     </div>
   )
 }
@@ -62,6 +63,7 @@ function App() {
       {(state === '') && (<Choices handleClick={handleClick}/>)}
       {(state === 'dashboard') && (<Dashboard/>)}
       {(state === 'display') && <Display/>}
+      {(state === 'cipher') && (<AnimatedSecretDecoder/>)}
     </div>
   )
 }
