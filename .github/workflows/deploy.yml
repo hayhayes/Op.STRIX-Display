@@ -22,6 +22,11 @@ jobs:
       - name: Build project
         run: npm run build
 
+      - name: Configure Git user
+        run: |
+          git config --global user.name "hayhayes"
+          git config --global user.email "hayhayes@users.noreply.github.com"
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
