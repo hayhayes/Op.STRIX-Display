@@ -47,65 +47,65 @@ function BackgroundThree({color}){
         <div className={`${color} window bg`} id="three" style={{maxHeight: '20rem', width: '20rem', padding: 0}}>
             <div className="bar">Interview</div>
             <div className="main">
-            Classified – Internal Use Only – WISE Division<br/>
-Title: Eden Academy Entrance Interview Simulation Report <br/>
-Author: L. Forger (Handler Review: “Gardenia”)
-Operation ID: STRIX-PARENTAL-INTEGRATION-PHASE I
-Last Modified: 2025-04-20 22:46:13
-Security Clearance: WISE-3 or higher<br/>
+              Classified – Internal Use Only – WISE Division<br/>
+              Title: Eden Academy Entrance Interview Simulation Report <br/>
+              Author: L. Forger (Handler Review: “Gardenia”)
+              Operation ID: STRIX-PARENTAL-INTEGRATION-PHASE I
+              Last Modified: 2025-04-20 22:46:13
+              Security Clearance: WISE-3 or higher<br/>
 
-Simulation Overview:<br/>
+              Simulation Overview:<br/>
 
-This report compiles behavioral simulations, question-response matrices, and emotional conditioning exercises designed to prepare the “Forger Unit” for Eden Academy’s parent-child entrance interview.<br/>
+              This report compiles behavioral simulations, question-response matrices, and emotional conditioning exercises designed to prepare the “Forger Unit” for Eden Academy’s parent-child entrance interview.<br/>
 
-Summary:<br/>
+              Summary:<br/>
 
-The Eden Interview Panel demonstrates high sensitivity to:<br/>
-  - Sincerity in family dynamics.
-  - Composure under pressure or personal provocation.
-  - Child’s behavioral response to stress, disappointment, and etiquette prompts.<br/>
+              The Eden Interview Panel demonstrates high sensitivity to:<br/>
+                - Sincerity in family dynamics.
+                - Composure under pressure or personal provocation.
+                - Child’s behavioral response to stress, disappointment, and etiquette prompts.<br/>
 
-Failure to maintain the illusion of a stable, elite family unit may result in immediate disqualification, followed by social blacklisting.<br/>
+              Failure to maintain the illusion of a stable, elite family unit may result in immediate disqualification, followed by social blacklisting.<br/>
 
-Test Scenarios:<br/>
+              Test Scenarios:<br/>
 
-Scenario 03A: “Mock Emotional Distress”
-  • Trigger: Interviewer insults Yor’s social standing.
-  • Response Matrix:
-      - Loid: Calm deflection, redirect to Yor’s “charity work” and “war widower empathy.”
-      - Yor: Breath regulation exercise activated. Do not reach for cutlery.<br/>
+              Scenario 03A: “Mock Emotional Distress”
+                • Trigger: Interviewer insults Yor’s social standing.
+                • Response Matrix:
+                    - Loid: Calm deflection, redirect to Yor’s “charity work” and “war widower empathy.”
+                    - Yor: Breath regulation exercise activated. Do not reach for cutlery.<br/>
 
-Scenario 07C: “Anya Emotional Spiral”<br/>
-  • Trigger: Anya incorrectly answers a knowledge question.
-  • Response Protocol:<br/>
-      - Loid applies soft correction.
-      - Hand squeeze = coded reassurance.<br/>
-      - “Elegant mistake” framing to preserve morale.
+              Scenario 07C: “Anya Emotional Spiral”<br/>
+                • Trigger: Anya incorrectly answers a knowledge question.
+                • Response Protocol:<br/>
+                    - Loid applies soft correction.
+                    - Hand squeeze = coded reassurance.<br/>
+                    - “Elegant mistake” framing to preserve morale.
 
-Scenario 10Z: “Unexpected Question: ‘What is Love?’”<br/>
-  • Target: Anya<br/>
-  • Simulated Answers:<br/>
-      - "It’s when Papa and Mama make pancakes together." <br/>
-      - "It’s when Mama doesn’t use poison at dinner." <br/>
+              Scenario 10Z: “Unexpected Question: ‘What is Love?’”<br/>
+                • Target: Anya<br/>
+                • Simulated Answers:<br/>
+                    - "It’s when Papa and Mama make pancakes together." <br/>
+                    - "It’s when Mama doesn’t use poison at dinner." <br/>
 
-Psychological Reinforcement Plan:<br/>
+              Psychological Reinforcement Plan:<br/>
 
-  - Weekly Mock Interviews (Mon/Wed/Fri, 18:00–18:45)<br/>
-  - Affection Simulation Module (coded "PDA Protocol–Beta")<br/>
-  - Anya Memory Boosting Exercises disguised as cartoon quizzes<br/>
+                - Weekly Mock Interviews (Mon/Wed/Fri, 18:00–18:45)<br/>
+                - Affection Simulation Module (coded "PDA Protocol–Beta")<br/>
+                - Anya Memory Boosting Exercises disguised as cartoon quizzes<br/>
 
-Notes:<br/>
+              Notes:<br/>
 
-  - Handler’s feedback indicates a 14% uptick in panel bias toward children<br/>
-    who display independent articulation and basic empathy.<br/>
-  - Further reduce Loid's speech formalities by 12%. <br/>
-    Add mild verbal affection (test phrases: “champ,” “sport,” “my bright star”).<br/>
+                - Handler’s feedback indicates a 14% uptick in panel bias toward children<br/>
+                  who display independent articulation and basic empathy.<br/>
+                - Further reduce Loid's speech formalities by 12%. <br/>
+                  Add mild verbal affection (test phrases: “champ,” “sport,” “my bright star”).<br/>
 
-Appendix:<br/>
+              Appendix:<br/>
 
-  - [x] Facial Microexpression Map: Dean Henderson (panel lead)<br/>
-  - [x] Yor Training Log (redacted)<br/>
-  - [x] Audio Clip: Sample Eden Responses (Loid voice modulation training)<br/>
+                - [x] Facial Microexpression Map: Dean Henderson (panel lead)<br/>
+                - [x] Yor Training Log (redacted)<br/>
+                - [x] Audio Clip: Sample Eden Responses (Loid voice modulation training)<br/>
 
             </div>
         </div>
