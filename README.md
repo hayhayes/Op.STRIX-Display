@@ -1,12 +1,42 @@
-# React + Vite
+# Operation STRIX
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Operation STRIX** (Super Terrific Really Incredible Experience) is a modern, front-end web application built using React and Vite. 
+This project is designed as an event display. The two displays produce non-interactive pages with css animations to create the illusion of ongoing data collection. Currently one page produces an interactive component that encodes a message into an emoji cipher. This interaction was designed to target children with a short and fun activity. 
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- ⚛️ Built with React and Vite for lightning-fast performance
+- 🌐 Client-side routing using React Router
+- 🔄 Automatically deployed with GitHub Actions
+- 🎯 Designed for scalability and maintainability
 
-## Expanding the ESLint configuration
+## Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+View the live application here: [https://hayhayes.github.io/Op.STRIX-Display/](https://hayhayes.github.io/Op.STRIX-Display/)
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v16 or higher recommended)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/hayhayes/Op.STRIX-Display.git
+   cd Op.STRIX-Display
+
+2. Install dependencies:
+
+   ```bash
+   npm install react-router-dom react-dnd-html5-backend chart.js react-chartjs-2
+
+3. Run the development server:
+
+    ```bash
+    npm run dev
+
+

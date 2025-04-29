@@ -46,6 +46,8 @@
 
 
 .cyber-ui{
+    background-color: #0c1e3e;
+    
     &.window{
         border-color: #27af99;
         background-color: #122c5a;

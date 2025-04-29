@@ -1,52 +1,35 @@
 import { useState } from 'react';
-import BinaryWindow from '../componets/Binary';
-import MissionStatus from '../componets/Table';
-import Graph from '../componets/Graph';
-import Map from '../componets/Map';
-import TextLog from '../componets/TextLog';
-import { BackgroundOne, BackgroundTwo, BackgroundThree } from '../componets/Background';
-import DonutChart from '../componets/Donut';
-import Protocols from '../componets/Protocols';
-import AnimatedSecretDecoder from '../componets/Encoder';
-import Game from '../componets/Rescue';
+import { BrowserRouter, Routes, Route, useNavigate } from 'react-router-dom';
+import Dashboard from '../pages/Dashboard';
+import Display from '../pages/SideDisplay';
+import AnimatedSecretDecoder from '../pages/Encoder';
+
 import './App.css'
 
-function Dashboard(){
-  const color = 'cyber-ui'
 
-  return (
-    <div className="dashboard">
-      <BinaryWindow color={color}/>
-      <MissionStatus color={color}/>
-      <Graph color={color}/>
-     <Map color={color}/>
-     <TextLog color={color}/>
-     <BackgroundOne color={color}/>
-     <BackgroundTwo color={color}/>
-     <BackgroundThree color={color}/>
-     <style>{`body{background-color: #0c1e3e;}`}</style>
-    </div>
-  )
-}
 
-function Display(){
+function Choices(){
+  const navigate = useNavigate();
+
+  const handleClick = (page) => {
+    navigate(page);
+  };
 
   return(
-    <div className="display">
-      <DonutChart/>
-      <Protocols/>
-      <style>{`body{background-color: #252525;}`}</style>
-    </div>
-  )
-}
-
-function Choices({handleClick}){
-
-  return(
-    <div>
+    <div className='home'>
+      <h1><b>Operation STRIX</b></h1>
+      <h1 id='acronym'><b>S</b>uper <b>T</b>errific <b>R</b>eally <b>I</b>ncredible e<b>X</b>perience</h1>
+      <h2>Select Display</h2>
       <button onClick={() => handleClick('dashboard')}>Dashboard</button>
       <button onClick={() => handleClick('display')}>Mini Display</button>
-      <button onClick={() => handleClick('encode')}>Cipher</button>
+      <button onClick={() => handleClick('cipher')}>Cipher</button>
+      <style>{`
+        .home{padding: 5rem; text-align: center;}
+        h1{font-weight: 600;} 
+        h2{margin: 3rem 0 2rem;}
+        #acronym{ margin-top: 0.5rem}
+        #acronym b{color: #2cc8af;}
+      `}</style>
     </div>
   )
 }
@@ -59,12 +42,14 @@ function App() {
   }
 
   return (
-    <div className="dashboard">
-      {(state === '') && (<Choices handleClick={handleClick}/>)}
-      {(state === 'dashboard') && (<Dashboard/>)}
-      {(state === 'display') && <Display/>}
-      {(state === 'cipher') && (<AnimatedSecretDecoder/>)}
-    </div>
+    <BrowserRouter basename="/Op.STRIX-Display">
+      <Routes>
+        <Route path="/" element={<Choices />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/display" element={<Display />} />
+        <Route path="/cipher" element={<AnimatedSecretDecoder />} />
+      </Routes>
+    </BrowserRouter>
   )
 }
 
