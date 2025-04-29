@@ -44,7 +44,7 @@ function BackgroundTwo({color}){
 function BackgroundThree({color}){
 
     return(
-        <div className={`${color}window bg`} id="three" style={{maxHeight: '20rem', width: '20rem', padding: 0}}>
+        <div className={`${color} window bg`} id="three" style={{maxHeight: '20rem', width: '20rem', padding: 0}}>
             <div className="bar">Interview</div>
             <div className="main">
             Classified – Internal Use Only – WISE Division<br/>
