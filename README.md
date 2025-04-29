@@ -1,6 +1,6 @@
 # Operation STRIX
 
-**Operation STRIX** (Super Terrific Really Incredible Experience) is a modern, front-end web application built using React and Vite. 
+**Operation STRIX** (**S**uper **T**errific **R**eally **I**ncredible **E**xperience) is a modern, front-end web application built using React and Vite. 
 This project is designed as an event display. The two displays produce non-interactive pages with css animations to create the illusion of ongoing data collection. Currently one page produces an interactive component that encodes a message into an emoji cipher. This interaction was designed to target children with a short and fun activity. 
 
 ## Features
@@ -9,6 +9,7 @@ This project is designed as an event display. The two displays produce non-inter
 - 🌐 Client-side routing using React Router
 - 🔄 Automatically deployed with GitHub Actions
 - 🎯 Designed for scalability and maintainability
+- 🕵️ Compoents inspired by Spy x Family
 
 ## Demo
 
