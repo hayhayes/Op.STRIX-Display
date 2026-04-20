@@ -7,15 +7,14 @@ export default function MissionStatus({color}){
 
     useEffect(() => {createDrama()}, [])
     useEffect(() => {
-        console.log(blink)
+        // console.log(blink)
     }, [blink])
     async function pause (ms){
         return new Promise(resolve => setTimeout(resolve, ms))
     }
-
     function flash (rowID){
         let row = rowID ?? -1;
-        console.log(row)
+        // console.log(row)
         let newState = blink.map((val, i) => {
             if(i === row) return true;
             return false;

@@ -2,7 +2,9 @@ import { useState } from 'react';
 import { BrowserRouter, Routes, Route, useNavigate } from 'react-router-dom';
 import Dashboard from '../pages/Dashboard';
 import Display from '../pages/SideDisplay';
+import LegoDisplay from '../pages/LegoDisplay';
 import AnimatedSecretDecoder from '../pages/Encoder';
+import BuildAKit from '../pages/BuildAKit';
 
 import './App.css'
 
@@ -22,7 +24,9 @@ function Choices(){
       <h2>Select Display</h2>
       <button onClick={() => handleClick('dashboard')}>Dashboard</button>
       <button onClick={() => handleClick('display')}>Mini Display</button>
+      <button onClick={() => handleClick('lego')}>Lego Display</button>
       <button onClick={() => handleClick('cipher')}>Cipher</button>
+      <button onClick={() => handleClick('buildakit')}>Kit Game</button>
       <style>{`
         .home{padding: 5rem; text-align: center;}
         h1{font-weight: 600;} 
@@ -47,7 +51,9 @@ function App() {
         <Route path="/" element={<Choices />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/display" element={<Display />} />
+        <Route path="/lego" element={<LegoDisplay />} />
         <Route path="/cipher" element={<AnimatedSecretDecoder />} />
+        <Route path="/buildakit" element={<BuildAKit/>}/>
       </Routes>
     </BrowserRouter>
   )

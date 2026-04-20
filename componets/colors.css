@@ -6,8 +6,7 @@
     to{
         color: #fc0ff5;
         transform: scale(1.01);
-        
-        
+
     }
 }
 
@@ -86,7 +85,7 @@
             animation-name: cyberUIblink;
             animation-duration: 1s;
             animation-iteration-count: infinite;
-            animation-timing-function: ease;
+            animation-timing-function: ease-out;
             animation-direction: alternate;
                     }
         
