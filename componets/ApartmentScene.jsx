@@ -42,7 +42,6 @@ export default function ApartmentScene({x, find}) {
           intensity={1.2}
         />
         <Apartment x={x} find={find}/>
-        <OrbitControls ref={controlsRef} onChange={logControls} />
        
     </Canvas>
     </div>

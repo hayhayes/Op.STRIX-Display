@@ -12,9 +12,9 @@ function Game({gameKey, resetGame}) {
   const [celebration, setCelebration] = useState(false)
   
   function handleClick(direction) {
-    const change = direction == 'left' ? 2 : -2;
+    const change = direction == 'left' ? 3 : -3;
     const newState = x + change
-     if(Math.abs(newState) <= 7){
+     if(Math.abs(newState) <= 6){
       setX(newState)
      } 
   }
