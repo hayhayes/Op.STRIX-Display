@@ -469,7 +469,7 @@ button.arrows:hover{
 .lego-notes.bottom{
     width: 56.5rem;
     height: 2rem;
-    top: 34rem;
+    bottom: 1.5rem;
     left: 10rem;
 }
 
